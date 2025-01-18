@@ -11,7 +11,7 @@ public class MarksCalculator {
         double[] marks = new double[numberOfSubjects];
         double totalMarks = 0;
 
-        // Input marks for each subject
+        
         for (int i = 0; i < numberOfSubjects; i++) {
             System.out.print("Enter marks obtained in subject " + (i + 1) + " (out of 100): ");
             marks[i] = scanner.nextDouble();
